@@ -19,9 +19,7 @@
 - [Sobre o hacktoberfest](#sobre-o-hacktoberfest)
 - [Sobre os desafios](#sobre-os-desafios)
 - [Como participar](#como-participar)
-- [Como Contribuir](#como-contribuir)
-  - [Requisitos](#requisitos)
-  - [Instalar](#instalar)
+- [Dicas](#dicas)
 - [Comunidade](#comunidade)
 
 ## Sobre o hacktoberfest
