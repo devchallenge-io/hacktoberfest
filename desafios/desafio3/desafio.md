@@ -19,23 +19,28 @@
 ## Desafio 
 
 ### Aplicação
+Galeria de artes
 
 ### Objetivo: 
+Você praticará a utilização de grid/flexbox para construção de uma galeria de artes
 
 ### Requisitos:
--
-
+- O usuário poderá visualizar várias imagens de obras de artes
+- Sua página deverá ser responsiva
 
 ### Extras
-- 
-
+- Adicione um filtro ou busca por assuntos
 
 ## Dicas
-- 
+- Você pode utilizar alguma api para exibição das obras:
+  - [Unsplash](https://unsplash.com/developers)
+  - [Behance](https://www.behance.net/dev)
+  - [Harvard Art Museums](https://github.com/harvardartmuseums/api-docs)
+  - [Icons8](https://icons8.docs.apiary.io/#reference/0/meta)
 
 ## Exemplos
-- 
-- 
+- [Unsplash](https://unsplash.com/s/photos/art)
+- [Pexels](https://www.pexels.com/pt-br/procurar/art/)
 
 ## Comunidade
 Caso tenha alguma dúvida sobre os desafios, fique à vontade para pedir ajuda na comunidade! https://discord.gg/yvYXhGj <br>
