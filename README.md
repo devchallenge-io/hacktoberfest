@@ -32,19 +32,19 @@ Visando a atuação de mais desenvolvedores na comunidade open source e particip
 
 
 ### Desafio 1
-[Sobre o desafio](./desafios/desafio1)<br>
+[Sobre o desafio](./desafios/desafio1/desafio.md)<br>
 [Resoluções do desafio](./desafios/desafio1/solucoes)<br>
 
 ### Desafio 2
-[Sobre o desafio](./desafios/desafio2)<br>
+[Sobre o desafio](./desafios/desafio2/desafio.md)<br>
 [Resoluções do desafio](./desafios/desafio2/solucoes)<br>
 
 ### Desafio 3
-[Sobre o desafio](./desafios/desafio3)<br>
+[Sobre o desafio](./desafios/desafio3/desafio.md)<br>
 [Resoluções do desafio](./desafios/desafio3/solucoes)<br>
 
 ### Desafio 4
-[Sobre o desafio](./desafios/desafio4)<br>
+[Sobre o desafio](./desafios/desafio4/desafio.md)<br>
 [Resoluções do desafio](./desafios/desafio4/solucoes)<br>
 
 ## Como participar
