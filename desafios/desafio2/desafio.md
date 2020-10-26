@@ -22,32 +22,48 @@
 Contando peças de xadrez
 
 ### Objetivo: 
-- Nesse desafio irá testar sua logica de programação
+- Teste sua logica de programação contabilizando as peças de um tabuleiro de xadrez
 
 ### Requisitos:
-- Neste desafio, você deverá contabilizar e exibir a quantidade de cada peça em um tabuleiro de xadrez
-- Apenas inteiros positivos ou nulo podem ser usados como limites.
-- O preenchimento do tabuleiro pode envolver uma leitura parcial dos valores (número por número), total (uma linha completa) ou definido no próprio código.
-- O intervalo compreende -1 < x < 7, onde x representa o número da peça (ou ausência dela, no caso de 0).
+- Para cada posição do tabuleiro, deve ser informado o código da peça que se encontra nessa posição. 
+    - O intervalo compreende -1 < x < 7, onde x representa o número da peça (ou ausência dela, no caso de 0)
+    - Apenas inteiros positivos ou nulo podem ser usados como limites
+    - O preenchimento do tabuleiro pode envolver uma leitura parcial dos valores (número por número), total (uma linha completa) ou definido no próprio código.
+- Contabilize a quantidade de cada tipo de peça existente
+- Retorne a quantidade de cada peças do tabuleiro de xadrez:
 
+    - Peão: 4 peça(s)
+    - Bispo: 0 peça(s)
+    - Cavalo: 0 peça(s)
+    - Torre: 2 peça(s)
+    - Rainha: 0 peça(s)
+    - Rei: 1 peça
 
 ### Extras
-- Para ser mais desafiador, desenvolva uma solução  sem usar estruturas condicionais ou de múltipla escolha (sem ifs, else e switch case).
+- Para ser mais desafiador, desenvolva uma solução sem usar estruturas condicionais ou de múltipla escolha (sem ifs, else e switch case).
 
 
 ## Dicas
-- O xadrez é um jogo de tabuleiro estratégico, disputado por dois jogadores e que consiste em um tabuleiro com um arranjo de 8 linhas e colunas formando 64 posições diferentes como uma matriz [8 x 8].
+- O xadrez é um jogo de tabuleiro estratégico, disputado por dois jogadores e que consiste em um tabuleiro com um arranjo de 8 linhas e colunas, formando 64 posições diferentes como uma matriz [8 x 8].
 - Existem 6 diferentes tipos de peças no xadrez e cada tipo possui uma quantidade (destacada por parênteses):
 
-    - Peão (8)
-    - Bispo (2)
-    - Cavalo (2)
-    - Torre (2)
-    - Rainha (1)
-    - Rei (1)
+    - Peão (8 peças)
+    - Bispo (2 peças)
+    - Cavalo (2 peças)
+    - Torre (2 peças)
+    - Rainha (1 peça)
+    - Rei (1 peça)
     
-- Um tabuleiro completo possui 32 peças. Cada tipo de peça, segundo a ordem que aparecem, receberão um código 
-    - (ex.: peão = 1, bispo = 2, …, rei = 6 e o vazio = 0).
+- Um tabuleiro completo possui 32 peças. Cada tipo de peça receberá um código:
+    - Vazio  = 0
+    - Peão   = 1
+    - Bispo  = 2
+    - Cavalo = 3
+    - Torre  = 4
+    - Rainha = 5
+    - Rei    = 6
+
+- [Regras do xadrez](https://www.megajogos.com.br/xadrez-online/regras)
 
 ## Exemplos
 
