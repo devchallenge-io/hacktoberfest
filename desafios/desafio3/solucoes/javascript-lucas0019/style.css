@@ -1,0 +1,166 @@
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+  font-style: bold;
+  color: #faf6ed;
+}
+
+body {
+  background: #faf6ed;
+  color: #222;
+  /* Suavizar a font */
+  -webkit-font-smoothing: antialiased;
+  display: inline;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.menu a {
+  background: tomato;
+  justify-content: center;
+  align-items: center;
+}
+
+p.ajuste {
+  text-decoration: none;
+  color: #faf6ed;
+  font-size: 40px;
+}
+
+.header {
+  background: #1d1e20;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+  height: 200px;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.center-items {
+  text-align: justify;
+  margin: 0 auto;
+  display: flex;
+  float: left;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-section {
+  grid-column: 2 / 4;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 50px 300px 1fr;
+  grid-gap: 20px;
+  margin-bottom: 4rem;
+}
+
+.image-radius {
+  border-radius: 30px;
+}
+
+/* SECTION GRID 3 */
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 0 auto;
+  max-width: 950px;
+  padding: 10px;
+}
+
+.grid3-item:nth-child(1) {
+  grid-row: 1 / 3;
+}
+
+.grid3-item {
+  display: grid;
+}
+
+.grid3-item img {
+  grid-column: 1;
+  grid-row: 1/3;
+  align-self: end;
+}
+
+.grid3-item p {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  color: white;
+  grid-column: 1;
+  grid-row: 2;
+  align-self: end;
+}
+
+/* SECTION GRID 4 */
+.grid4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  margin: 0 auto;
+  max-width: 950px;
+  padding: 10px;
+}
+
+/* Zoom na imagem */
+
+.scale-image {
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.6);
+}
+.scale-image img {
+  transition: all 0.2s;
+}
+.scale-image:hover img {
+  transform: scale(1.2);
+}
+
+/* Responsive */
+
+@media (max-width: 490px) {
+  .grid3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 10px;
+  }
+
+  .header {
+    border-radius: 0 0 40px 40px;
+  }
+}
+
+.noImages {
+  color: #252525;
+  padding-bottom: 6rem;
+}
