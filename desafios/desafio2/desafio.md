@@ -44,7 +44,9 @@ Contando peças de xadrez
 
 
 ## Dicas
+
 - O xadrez é um jogo de tabuleiro estratégico, disputado por dois jogadores e que consiste em um tabuleiro com um arranjo de 8 linhas e colunas, formando 64 posições diferentes como uma matriz [8 x 8].
+
 - Existem 6 diferentes tipos de peças no xadrez e cada tipo possui uma quantidade (destacada por parênteses):
 
     - Peão (8 peças)
@@ -62,8 +64,12 @@ Contando peças de xadrez
     - Torre  = 4
     - Rainha = 5
     - Rei    = 6
+    
+- Poderá fazer uso do For Loop para resolução do problema    
+    
 
 - [Regras do xadrez](https://www.megajogos.com.br/xadrez-online/regras)
+- [Sobre o Xadrez](https://pt.wikipedia.org/wiki/Xadrez)
 
 ## Exemplos
 
@@ -87,7 +93,8 @@ Contando peças de xadrez
     - Rainha: 0 peça(s)
     - Rei: 1 peça
 
-
+ - A ideia é o usuario informar ou gerar radomicamente os numeros de entrada, para serem proccessados no código 
+ - Sendo assim , se na quela sequencia tiver apenas um numero que representa a peça devera retornar sua quantidade, como nso exemplos vistos acima
 
 ## Comunidade
 Caso tenha alguma dúvida sobre os desafios, fique à vontade para pedir ajuda na comunidade! https://discord.gg/yvYXhGj <br>
