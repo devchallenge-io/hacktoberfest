@@ -40,8 +40,8 @@ Contando peças de xadrez
     - Rei: 1 peça
 
 ### Extras
-- Para ser mais desafiador, desenvolva uma solução sem usar estruturas condicionais ou de múltipla escolha (sem ifs, else e switch case).
-
+- Para ser mais desafiador, desenvolva a solução acima sem usar estruturas condicionais ou de múltipla escolha (sem ifs, else e switch case).
+- Caso prefira, você também pode adicionar uma validação para que a quantidade de peças informadas não ultrapasse os limites máximos de cada peça definidos nas regras do xadrez. (Ex: Só pode ter 1 rei para cada participante do jogo)
 
 ## Dicas
 
@@ -93,8 +93,8 @@ Contando peças de xadrez
     - Rainha: 0 peça(s)
     - Rei: 1 peça
 
- - A ideia é o usuario informar ou gerar radomicamente os numeros de entrada, para serem proccessados no código 
- - Sendo assim , se na quela sequencia tiver apenas um numero que representa a peça devera retornar sua quantidade, como nso exemplos vistos acima
+ - A ideia é o usuario informar ou gerar randomicamente os numeros de entrada, para serem proccessados no código. 
+ - Sendo assim, se na sequência informada possuir um numero que representa a peça, deverá retornar sua quantidade no resultado de saída.
 
 ## Comunidade
 Caso tenha alguma dúvida sobre os desafios, fique à vontade para pedir ajuda na comunidade! https://discord.gg/yvYXhGj <br>
