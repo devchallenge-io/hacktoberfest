@@ -14,8 +14,8 @@ p {
 }
 
 body {
-  background: #faf6ed;
-  color: #222;
+  background: #222 ;
+  color: #faf6ed;
   /* Suavizar a font */
   -webkit-font-smoothing: antialiased;
   display: inline;
