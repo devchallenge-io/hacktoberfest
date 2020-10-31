@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+  font-family: Quicksand, sans-serif;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body{
+  background: linear-gradient(180deg, #384152 0%, #222835 100%);
+}
+
+.container header{
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container header h2{
+  color: #FFF;
+}
+
+.container header button.btn-share{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  border-radius: 10px;
+  background: #2E3645;
+  box-shadow:  5px 5px 12px #1c2029, 
+              -5px -5px 12px #404c61;
+  transition: 0.3s;
+}
+
+.container header button.btn-share:hover{
+  box-shadow:  7px 7px 14px #12161c, 
+              -7px -7px 14px #4a566e;
+  transition: 0.3s;
+}
+
+.container header button.btn-share:active{
+  box-shadow: inset  5px 5px 12px #1c2029, 
+              inset -5px -5px 12px #404c61;
+  transition: 0.3s;
+}
+
+.container main .input-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.8rem;
+}
+
+.container main .input-group label{
+  color: #FFF;
+  margin: 0.8rem;
+}
+
+.container main .input-group .input-button-group{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.container main .input-group input::-webkit-outer-spin-button,
+.container main .input-group input::-webkit-inner-spin-button,
+.container main .input-group .input-button-group input::-webkit-outer-spin-button,
+.container main .input-group .input-button-group input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.container main .input-group input[type=number], 
+.container main .input-group .input-button-group input[type=number]{
+  -moz-appearance: textfield;
+}
+
+.container main .input-group input,
+.container main .input-group .input-button-group input{
+
+  width: 100%;
+  height: 48px;
+
+  margin: 0 0.4rem;
+  
+  border: none;
+  outline: none;
+
+  text-align: center;
+  font-family: Quicksand, sans-serif;
+  color: #FFF;
+
+  border-radius: 10px;
+  background: #2E3645;
+  box-shadow: inset 7px 7px 8px #202530, 
+              inset -7px -7px 8px #3c475a;;
+  transition: 0.3s;
+}
+
+.container main .input-group input:focus,
+.container main .input-group .input-button-group input:focus{  
+  box-shadow: inset 7px 7px 14px #12161c, 
+              inset -7px -7px 14px #4a566e;
+}
+
+.container main .input-group .input-button-group button.btn-share{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+
+  text-align: center;
+  font-family: Quicksand, sans-serif;
+  font-size: large;
+  color: #FFF;
+
+  border: none;
+  outline: none;
+  color: #FFF;
+  border-radius: 10px;
+  background: #2E3645;
+  box-shadow:  5px 5px 12px #1c2029, 
+              -5px -5px 12px #404c61;
+  transition: 0.3s;
+}
+
+.container main .input-group .input-button-group button.btn-share:hover{
+  box-shadow:  7px 7px 14px #12161c, 
+              -7px -7px 14px #4a566e;
+  transition: 0.3s;
+}
+
+.container main .input-group .input-button-group button.btn-share:active{
+  box-shadow: inset  5px 5px 12px #1c2029, 
+              inset -5px -5px 12px #404c61;
+  transition: 0.3s;
+}
+
+.container main .result{
+  width: 100%;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFF;
+}
+
+
+.container footer .social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0.8rem;
+}
+
+.container footer .social a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+
+  margin: 0 0.4rem;
+  
+  width: 48px;
+  height: 48px;
+
+  text-align: center;
+  font-family: Quicksand, sans-serif;
+  font-size: large;
+  color: #FFF;
+
+  border: none;
+  outline: none;
+  color: #FFF;
+  border-radius: 10px;
+  background: #2E3645;
+  box-shadow:  5px 5px 12px #1c2029, 
+              -5px -5px 12px #404c61;
+  transition: 0.3s;
+}
+
+.container footer .social a:hover{
+  box-shadow:  7px 7px 14px #12161c, 
+              -7px -7px 14px #4a566e;
+  transition: 0.3s;
+}
+
+.container footer .social a:active{
+  box-shadow: inset  5px 5px 12px #1c2029, 
+              inset -5px -5px 12px #404c61;
+  transition: 0.3s;
+}
+
+.container footer .footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  margin: 1.6rem;
+}
+
+.container footer .footer strong{
+  margin: 0.8rem
+}
