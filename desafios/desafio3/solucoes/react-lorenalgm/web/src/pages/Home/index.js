@@ -8,6 +8,7 @@ import vertical1 from '../../assets/vertical1.png';
 import vertical2 from '../../assets/vertical2.png';
 import vertical3 from '../../assets/vertical3.png';
 import vertical4 from '../../assets/vertical4.png';
+import './styles.css';
 
 function Home(){
     return(
@@ -30,10 +31,27 @@ function Home(){
             </section>
             <section className="works">
                 <div className="vertical-images">
-                    <img src={vertical1} alt="Galeria" />
-                    <img src={vertical2} alt="Galeria" />
-                    <img src={vertical3} alt="Galeria" />
-                    <img src={vertical4} alt="Galeria" />
+                    <div id="vertical-images1">
+                        <img src={vertical1} alt="Galeria" />
+                        <img src={vertical2} alt="Galeria" />
+                        <img src={vertical3} alt="Galeria" />
+                        <img src={vertical4} alt="Galeria" />
+                        <a href="#vertical-images2">></a>
+                    </div>
+                    <div id="vertical-images2">
+                        <img src={vertical4} alt="Galeria" />
+                        <img src={vertical1} alt="Galeria" />
+                        <img src={vertical2} alt="Galeria" />
+                        <img src={vertical3} alt="Galeria" />
+                        <a href="#vertical-images3">></a>
+                    </div>
+                    <div id="vertical-images3">
+                        <img src={vertical3} alt="Galeria" />
+                        <img src={vertical4} alt="Galeria" />
+                        <img src={vertical1} alt="Galeria" />
+                        <img src={vertical2} alt="Galeria" />
+                        <a href="#vertical-images1">></a>
+                    </div>
                 </div>
                 <div className="horizontal-images">
                     <img src={horizontal1} alt="Galeria" />
@@ -45,7 +63,7 @@ function Home(){
             <section className="highlight">
                 <div className="week-left">
                     <div className="week-content">
-                        <h1>Obras Da Semana</h1>
+                        <h1>Obras<br></br>Da Semana</h1>
                         <p>Conheça os destaques mais visualizados no momento</p>
                     </div>
                 </div>
