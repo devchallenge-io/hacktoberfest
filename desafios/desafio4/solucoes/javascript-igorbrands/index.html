@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Calculadora de Bar</title>
+</head>
+<body>
+  <div class="container">
+    <div id="bill-calculator">
+      <h1>Calculadora de Bar</h1>
+      <form name="calculator" id="calculator">
+        <div class="field-container">
+          <label for="bill">Quanto foi a sua conta?</label>
+          <input id="bill" type="number" placeholder="R$" min="1" required pattern="^[1-9][0-9]*">
+        </div>
+        <div class="field-container">
+          <label for="percent">Gorjeta do Garçom (%)</label>
+          <input id="percent" type="number" name="percent" placeholder="%" max="100" pattern="">
+        </div>
+        <div class="field-container">
+          <label for="customer-num">Quantos dividem a conta?</label>
+          <input id="customer-num" type="number" name="customer-num" placeholder="Não esquece do amigo serrote" value="1" min="1" required>
+        </div>
+        <div class="button-container">
+          <button id="btn-calc" type="submit" name="calculate">Calcular</button>
+        </div>
+      </form>
+    </div>
+    <div id="result-container">
+      <h1>Como fica a conta</h1>
+      <form name="results" id="results"></form>
+        <div class="field-container">
+          <label for="total-bill">Total da Conta (R$)</label>
+          <input id="total-bill" type="number" name="bill" placeholder="0" disabled/>
+        </div>
+        <div class="field-container">
+          <label for="total-percent">Total de Gorjeta (%)</label>
+          <input id="total-percent" type="number" name="percent" placeholder="0" disabled/>
+        </div>
+        <div class="field-container">
+          <label for="total-per-customer">Total por pessoa</label>
+          <input id="total-per-customer" type="number" name="customer-num" placeholder="0" disabled/>
+        </div>
+    </div>
+  </div>
+
+
+
+  <script src="./calculator.js" type="application/javascript"></script>
+</body>
+</html>

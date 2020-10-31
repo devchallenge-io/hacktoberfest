@@ -1,0 +1,76 @@
+body {
+  font-family:  Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  border-radius: 4px;
+}
+
+.container {
+  margin: 0;
+  width: 500px;
+}
+
+#bill-calculator{
+  padding: 20px;
+  background-color: #22212C;
+  box-shadow: 10px 10px 5px darkgrey;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+#result-container{
+  border: 1px darkred dashed;
+  background-color: #ffff7a;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 0 0 20px 0;
+}
+
+.field-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.field-container label {
+  padding:  10px;
+  display: block;
+}
+.field-container input {
+  border: 1px solid darkgray;
+  padding: 10px;
+  display: block;
+}
+.button-container{
+  text-align: center;
+}
+.button-container button{
+  padding: 10px;
+  background-color: #9580ff;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+  transition: 0.2s;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+input:disabled{
+  background-color: #fff;
+}
