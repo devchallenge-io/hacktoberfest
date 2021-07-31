@@ -1,0 +1,105 @@
+.home {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(-45deg, #050404, #1c1d2e, #19264a, #313e89);
+    background-size: 400% 400%;
+    padding: 0 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: backgroundTransition 8s ease-in-out infinite;
+    color: var(--white);
+}
+
+.home__link {
+    font-weight: 500;
+    color: var(--yellow);
+    text-decoration: underline;
+}
+
+.home__title {
+    color: var(--yellow);
+}
+
+.home__desc {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 32px;
+}
+
+.home_challenges {
+    display: inline-block;
+    margin-right: 16px;
+    margin-top: 24px;
+}
+
+.home__challenge {
+    padding: 12px 10px;
+    border: 1px solid var(--white);
+    border-radius: 6px;
+    transition: all ease-out .3s;
+    font-size: 1rem;
+    color: var(--white);
+    font-weight: 300;
+}
+
+.home__challenge:hover {
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+}
+
+.home__footer {
+    width: 100%;
+    margin: 32px 0;
+    padding: 16px 2%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.home__footer__links {
+    color: var(--white);
+    font-size: 1.15rem;
+    transition: ease-out .3s;
+}
+
+.home__footer__links:hover { color: var(--blue-light); }
+
+/*-- Mobile --*/
+@media (max-width: 768px) {
+    .home_challenges {
+        display: block;
+        margin-bottom: 48px;
+    }
+
+    .home_challenges:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 568px) {
+    .home__desc {
+        text-align: left;
+    }
+}
+
+/*-- Animations --*/
+
+@keyframes backgroundTransition {
+    0% {
+        background-position:  0% 80%;
+    }
+    50% {
+        background-position: 80% 100%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
+}
