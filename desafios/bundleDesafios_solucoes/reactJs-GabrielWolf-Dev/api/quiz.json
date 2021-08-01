@@ -1,0 +1,74 @@
+{
+  "quiz": {
+    "title": "Quiz JavaScript",
+    "desc": "Teste os seus conhecimentos sobre JavaScript :)",
+    "img": "https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png"
+  },
+    "questions": [
+        {
+          "id": 1,
+          "image": "https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_960_720.jpg",
+          "alt": "Código JavaScript",
+          "question": "Qual a diferença entre var, let e const?",
+          "answer": 1,
+          "alternatives": [
+            "Não há diferença",
+            "var - Escopo global e pode reatribuir o valor;\nlet - Escopo fechado e pode reatribuir o valor;\nconst - Escopo fechado e não pode reatribuir o valor.",
+            "var - Escopo global e pode reatribuir o valor;\nlet - Escopo global e pode reatribuir o valor;\nconst - Escopo fechado e pode reatribuir o valor.",
+            "var - Escopo global e não pode reatribuir o valor;\nlet - Escopo fechado e pode reatribuir o valor;\nconst - Escopo global e não pode reatribuir o valor."
+          ]
+        },
+        {
+          "id": 2,
+          "image": "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg",
+          "alt": "Código Jquery",
+          "question": "Qual das alternativas é o '$' do Jquery para selecionar elementos do DOM em Js puro?",
+          "answer": 0,
+          "alternatives": [
+            "const $ = document.querySelector.bind(document);",
+            "const $ = document.querySelector(document);",
+            "const $ = document.querySelector().bind(document);",
+            "const $ = document.querySelector.bind();"
+          ]
+        },
+        {
+          "id": 3,
+          "image": "https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png",
+          "alt": "Código JavaScript",
+          "question": "Qual a diferença entre = , == e === ?",
+          "answer": 3,
+          "alternatives": [
+            "O = significa atribuição de valor. Já == e === verifica a igualdade do valor;",
+            "O = e == significa atribuição de valor, enquanto === verifica valor e tipo de variável;",
+            "Não há diferença, todos servem para atribuição de valor;",
+            "O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica valor e tipo de variável."
+          ]
+        },
+        {
+          "id": 4,
+          "image": "https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png",
+          "alt": "Código JavaScript",
+          "question": "Porquê não é recomendado usar o método innerHTML?",
+          "answer": 1,
+          "alternatives": [
+            "O innerHTML é totalmente seguro, scripts não são aceitos pelo método;",
+            "Por questões de segurança, o método deixa o desenvolvedor e até mesmo o cliente inserir qualquer tag HMTL, incluindo scripts que podem ser mal intencionados;",
+            "Não há nenhum problema em utilizar innerHTML no seu código."
+          ]
+        },
+        {
+          "id": 5,
+          "image": "https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_960_720.jpg",
+          "alt": "Código JavaScript",
+          "question": "Qual a diferença entre valor undefined e null?",
+          "answer": 1,
+          "alternatives": [
+            "Ambos significam variáveis declaradas, mas que ainda não foi atribuído algum valor;",
+            "Undefined significa que uma variável foi declarada, mas ainda não foi atribuído um valor. Enquanto null é um valor atribuído ou resultado de um erro que foi atribuído a uma variável. As variáveis não atribuídas são inicializadas pelo JavaScript com um valor padrão de undefined;",
+            "Ambos significam variáveis nulas;",
+            "Null significa que uma variável foi declarada, mas ainda não foi atribuído um valor. Enquanto undefined é um valor atribuído ou resultado de um erro que foi atribuído a uma variável. As variáveis não atribuídas são inicializadas pelo JavaScript com um valor padrão de null;",
+            "Ambos significam variáveis nulas."
+          ]
+        }
+    ]
+}
